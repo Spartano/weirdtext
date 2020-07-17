@@ -1,0 +1,37 @@
+{
+  "name": "jest-enzyme-react-typescript-setup-tests",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@types/jest": "26.0.4",
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
+    "enzyme": "latest",
+    "enzyme-adapter-react-16": "latest",
+    "jest": "latest",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts-ts": "^2.13.0",
+    "react-test-renderer": "16.4.1",
+    "styled-components": "5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/enzyme": "3.1.11",
+    "@types/enzyme-adapter-react-16": "1.0.2",
+    "@types/jest": "23.1.2",
+    "@types/node": "^9.4.6",
+    "@types/react": "16.0.38",
+    "@types/react-dom": "16.0.4",
+    "@types/react-test-renderer": "16.0.1",
+    "typescript": "^2.7.2"
+  },
+  "keywords": [],
+  "description": ""
+}
